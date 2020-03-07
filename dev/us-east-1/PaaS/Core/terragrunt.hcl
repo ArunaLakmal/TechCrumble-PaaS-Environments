@@ -3,11 +3,9 @@ locals {
 }
 
 #TechCrumble Module Reference 
-#terragrunt = {
     terraform {
         source = "git::git@github.com:ArunaLakmal/TechCrumble-PaaS-Core.git//module?ref=v1.0"
     }
     include {
         path = find_in_parent_folders()
     }
-#}
