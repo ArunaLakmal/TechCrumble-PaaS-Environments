@@ -1,6 +1,6 @@
 #TechCrumble Core Module Reference 
     terraform {
-        source = "git::git@github.com:ArunaLakmal/TechCrumble-PaaS-Core.git//module?ref=v1.0.2"
+        source = "git::git@github.com:ArunaLakmal/terraform-kube-master.git//wrapper?ref=v1.0.3"
 
         extra_arguments "common_vars" {
         commands = get_terraform_commands_that_need_vars()

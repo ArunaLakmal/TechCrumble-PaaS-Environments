@@ -9,3 +9,4 @@ cidrs = {
 }
 key_name = "ironman"
 public_key_path = "~/.ssh/ironman.pub"
+s3_bucket = "tc-remotestate-20762"
