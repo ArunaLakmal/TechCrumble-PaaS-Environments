@@ -8,6 +8,7 @@
         arguments = [
           "-var-file=${find_in_parent_folders("region.tfvars")}",
           "-var-file=${find_in_parent_folders("environment.tfvars")}",
+          "-var-file=${find_in_parent_folders("paas.tfvars")}",
           "-var-file=${find_in_parent_folders("terraform.tfvars.json")}"
         ]
         }
