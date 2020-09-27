@@ -1,6 +1,6 @@
-#TechCrumble Master Module Reference 
+#TechCrumble Etcd Module Reference 
 terraform {
-    source = "git::git@github.com:ArunaLakmal/terraform-kube-master.git//wrapper?ref=v1.0.9.8"
+    source = "git::git@github.com:ArunaLakmal/terraform-kube-etcd.git//wrapper?ref=v1.0.0"
 
     extra_arguments "common_vars" {
     commands = get_terraform_commands_that_need_vars()
@@ -15,7 +15,7 @@ terraform {
 }
 
 inputs = {
-  master_desired_capacity = 2
+  etcd_desired_capacity = 3
 }
 
 include {
