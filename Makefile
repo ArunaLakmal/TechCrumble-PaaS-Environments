@@ -15,5 +15,8 @@ worker:
 etcd:   
 	@ansible-playbook ansible-kubernetes-etcd/deploy.yaml --extra-vars "@terraform.tfvars.json"
 
+certs:
+	@source scripts/cfssl.sh
+
 clean:
 	@find . -name .terragrunt-cache -exec rm -rf {} \;
