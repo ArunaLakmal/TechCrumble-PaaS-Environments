@@ -1,6 +1,6 @@
 #TechCrumble Master Module Reference 
 terraform {
-    source = "git::git@github.com:ArunaLakmal/terraform-kube-master.git//wrapper?ref=cni"
+    source = "git::git@github.com:ArunaLakmal/terraform-kube-master.git//wrapper?ref=v1.1.12"
 
     extra_arguments "common_vars" {
     commands = get_terraform_commands_that_need_vars()
