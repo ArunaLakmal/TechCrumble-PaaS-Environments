@@ -1,7 +1,7 @@
 remote_state {
   backend = "s3"
   config = {
-    bucket         = "tc-remotestate-59146"
+    bucket         = "tc-remotestate-52868"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "tf-remote-state-lock"
