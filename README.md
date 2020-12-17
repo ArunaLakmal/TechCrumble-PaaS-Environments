@@ -1,2 +1,2 @@
 # TechCrumble-PaaS-Environments
-PaaS Environment Repository
+TechCrumble PaaS Environment Repository for the Multi-master Kubernetes cluster. 
